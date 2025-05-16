@@ -87,8 +87,8 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                                                  &kp CARET         &kp AMPERSAND           &kp RC(RA(RETURN))  &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS
-&kp PLUS                 &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp RC(RA(LEFT_ARROW))  &kp RC(RA(C))       &kp RA(RC(RIGHT_ARROW))  &kp PERCENT
+&kp MINUS                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                                                  &kp CARET         &kp AMPERSAND           &kp RA(RG(RETURN))  &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS
+&kp PLUS                 &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp RA(RG(LEFT_ARROW))  &kp RA(RG(C))       &kp RA(RG(RIGHT_ARROW))  &kp PERCENT
 &mt LEFT_SHIFT ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &kp LEFT_BRACE      &kp RIGHT_BRACE          &kp BACKSLASH
 &kp SLASH                &trans           &kp KP_NUMBER_0  &trans           &trans        &trans                       &trans          &trans                                                                                 &kp PIPE
             >;

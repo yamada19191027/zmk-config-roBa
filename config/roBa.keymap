@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R  &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D         &kp F  &kp G        &kp LS(RC(NUMBER_4))               &kp EXCLAMATION  &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V  &kp B        &kp COLON                          &kp QUESTION     &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&lt 2 INT_HENKAN    &kp LEFT_WIN  &kp LEFT_ALT  &mo 3  &lt 1 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp SPACE        &lt 2 ENTER                             &kp CAPSLOCK
+&kp Q             &kp W           &kp E         &kp R  &kp T                                                      &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S           &kp D         &kp F  &kp G        &kp LS(RC(NUMBER_4))               &kp EQUAL  &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
+&mt LEFT_SHIFT Z  &kp X           &kp C         &kp V  &kp B        &kp EXCLAMATION                    &kp TILDE  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 3  &lt 1 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp SPACE  &lt 2 ENTER                             &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp PIPE      &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &trans                         &kp ESCAPE  &kp BSPC  &kp UP_ARROW    &kp DEL          &kp DEL
-&kp TAB         &kp ASTERISK  &kp HASH           &kp MINUS         &kp SPACE  &trans      &trans  &kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT  &trans        &kp AT_SIGN        &trans            &trans     &trans      &trans  &trans      &trans    &trans          &trans           &kp KP_SLASH
-&trans          &trans        &trans             &trans            &trans     &trans      &trans  &trans                                                 &trans
+&kp ESCAPE      &kp PIPE      &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &trans                         &kp ESCAPE      &kp BSPC  &kp UP_ARROW    &kp DEL          &kp DEL
+&kp TAB         &kp ASTERISK  &kp HASH           &kp MINUS         &kp SPACE  &trans      &trans  &kp HOME        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&kp LEFT_SHIFT  &trans        &kp AT_SIGN        &trans            &trans     &trans      &trans  &trans          &trans    &trans          &trans           &kp KP_SLASH
+&trans          &trans        &trans             &trans            &trans     &trans      &trans  &kp LS(RETURN)                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
